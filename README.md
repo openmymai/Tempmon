@@ -1,21 +1,6 @@
 ### Temperature Monitoring on Raspberry Pi 3 with DS18B20 Kit by Go Fiber and NextJS Static
-#
-### Go Fiber Features
-- Robust routing
-- Serve static files
-- Extreme performance
-- Low memory footprint
-- API endpoints
-- Middleware & Next support
-- Rapid server-side programming
-- Template engines
-- WebSocket support
-- Server-Sent events
-- Rate Limiter
-- Translated in 15 languages
-- And much more, explore Fiber
 
-### gofiber features could make the great projects.
+### Go Fiber features could make the great projects.
 - Express-inspired
 - Robust routing
 - Serve static files
