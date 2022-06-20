@@ -1,6 +1,4 @@
-### DS18B20
-### GoFiber
-### NextJS
+### Temperature Monitoring on Raspberry Pi 3 with DS18B20 Kit by Go Fiber and NextJS Static
 #
 ### Go Fiber Features
 - Robust routing
