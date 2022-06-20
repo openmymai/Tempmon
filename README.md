@@ -1,4 +1,6 @@
-# Temperature Monitoring on Raspberry Pi 3 with DS18B20 Kit by Go Fiber and NextJS Static
+# Temperature Monitoring
+Temperature Monitoring on Raspberry Pi 3 with DS18B20 Kit by Go Fiber and NextJS Static.
+This project run on high performance Go Fiber and serve static files which export from NextJS.
 
 ### Go Fiber features could make the great projects.
 - Express-inspired
@@ -16,6 +18,7 @@
 1. Raspberry Pi 3
 2. DS18B20 Kit
 3. NodeJS (This project Node version 18.4.0)
+4. Go 1.18.3
 
 ### Running and Developing on Raspberry Pi 3
 1. Clone the repository
