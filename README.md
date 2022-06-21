@@ -23,7 +23,7 @@ This project run on high performance Go Fiber and serve static files which expor
 ### Running and Developing on Raspberry Pi 3
 1. Clone the repository
 ```
-$ git clone https://github.com/openmymai/DS18B20_GoFiber_NextJSStatic
+$ git clone https://github.com/openmymai/Tempmon.git
 ```
 2. Build Go at Root, it will build binary executable file
 ```
