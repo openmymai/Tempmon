@@ -31,7 +31,7 @@ $ go build
 ```
 3. In nextjs directory, install dependencies and export to static file
 ```
-$ npm install && npm export
+$ npm install && npm run export
 ```
 4. Run the project
 ```
