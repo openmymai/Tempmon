@@ -8,9 +8,8 @@ async function fetcher(url) {
 };
 
 
-export default function IndexPage() {
+const IndexPage = () => {
   const [ dateTime, setDateTime] = useState(new Date())
-  const [ response, setResponse ] = useState("")
 
   const { data, error } = useSWR("http://10.10.12.201:8080/api", fetcher, { refreshInterval: 1000 }) 
   useEffect(() => {
@@ -44,7 +43,7 @@ export default function IndexPage() {
               )}
               {!error && !data && <p>Loading ...</p>}
               {!error && data && 
-                <h1 style={{fontSize: "100px"}}>{data}<span className="symbol">°</span>C</h1>
+                <h1>อุณหภูมิ {data}</h1>
               }
               </center>
             </Card.Body>
@@ -56,3 +55,4 @@ export default function IndexPage() {
   )
 }
 
+export default IndexPage;
