@@ -36,7 +36,8 @@ const IndexPage = () => {
             <Card.ImgOverlay>
             <Card.Body>
               <center>
-              <h1>{day+" "+date+" "+month+" "+year+" "+time}</h1>
+              <h3>{day+" "+date+" "+month+" "+year}</h3>
+              <h3>{time}</h3>
               <hr />
               {error && (
                 <strong>{error}</strong>
