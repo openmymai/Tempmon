@@ -29,7 +29,12 @@ $ git clone https://github.com/openmymai/Tempmon.git
 ```
 $ go build
 ```
-3. In nextjs directory, install dependencies and export to static file
+3. In nextjs directory, install dependencies and export to static file,
+Change your ip address relevant to your Raspberry pi line 14 of pages/index.js in nextjs directory
+```
+const { data, error } = useSWR("http://<your raspberry pi ip address>/api", fetcher, { refreshInterval: 1000 })
+```
+Then export to a static file.
 ```
 $ npm install && npm run export
 ```
